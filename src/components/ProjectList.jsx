@@ -63,8 +63,8 @@ const ProjectData = [
     name: "Calculator",
     disc: "This is a simle Calculator where you can use it for calculations.",
     techStack: ["React"],
-    wevsiteUrl: "#",
-    gitHubUrl: "#",
+    wevsiteUrl: "https://raviskumar210755.github.io/Calculator/",
+    gitHubUrl: "https://github.com/RaviSKumar210755/Calculator",
   },
 ];
 
