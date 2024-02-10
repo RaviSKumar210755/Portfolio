@@ -1,7 +1,7 @@
 const MainPage = () => {
   const handleNavigate = () => {
     const url =
-      "https://drive.google.com/file/d/1gBIwt5RKzWYc0puHITInUhUSvKLSJFx1/view?usp=sharing";
+      "https://drive.google.com/file/d/10VrU34v8xkh9sy8gbLvA60N9O0thJOFC/view?usp=sharing";
     window.open(url, "_blank");
   };
   return (
