@@ -10,7 +10,7 @@ const Experience = () => {
         <div className="card text-center web bgCol">
           <h4 className="card-header">Frontend Web Developer Intern</h4>
           <div className="card-body">
-            <h5 className="card-title">@ Infotrixs/h5>
+            <h5 className="card-title">@ Infotrixs</h5>
             <p className="card-text">
              Worked on Internship Portal With Senior Developers fixing bugs and added extra functionality.
             </p>
