@@ -1,0 +1,281 @@
+   body{
+   background: linear-gradient(to bottom right, #ffcccc, #cc99ff);  
+   margin: 0;
+   background-image: url(bg.jpg);
+  }
+
+.header{
+  width: 100%;
+}
+.experience {
+  margin-left: 10%;
+  margin-right: 10%;
+  height: 100%; 
+}
+.skill {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+.skillContainer {
+  max-width: 80%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2%;
+  margin-bottom: 3%;
+  margin-left: 10%;
+  margin-right: 10%;
+  /* border: 1px solid rgb(87, 85, 85); */
+  flex-wrap: wrap;
+}
+
+.skillContainer > div {
+  width: calc(50% - 20px);
+  margin-bottom: 20px;
+}
+
+.skillContainer > div:nth-child(3) {
+  width: 50%; /* Adjust width as needed */
+  margin: 0 auto; /* Set margin to auto to center */
+}
+
+
+.ineerSkill{
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  border: none;
+}
+
+.exp{
+  margin-top: 5%;
+}
+.ski{
+  margin-bottom: 5%;
+}
+.edu{
+  /* border: 1px solid rgb(87, 85, 85); */
+  margin-left: 10%;
+  margin-right: 10%;
+  /* margin-top: 5%; */
+  /* margin-bottom: 5%; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+.proj{
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 2%;
+  margin-bottom: 3%;
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px solid rgb(180, 171, 171); */
+  flex-wrap: wrap;
+}
+
+.project{
+  width: 200px;
+  height: 250px;
+  margin: 10px;
+}
+.contact{
+  /* border: 1px solid rgb(180, 171, 171); */
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 2%;
+  margin-bottom: 3%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.form{
+  margin: 5%;
+}
+.web{
+  margin: 5%;
+  transition: transform 0.3s ease-in-out;
+}
+.web:hover {
+  transform: scale(1.03); 
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); 
+}
+
+.innersk{
+  border: 1px solid rgb(180, 171, 171);
+  margin: 10px;
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+.innersk:hover {
+  transform: scale(1.03); 
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); 
+}
+.skillHeader{
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.education {
+  border: 1px solid rgb(180, 171, 171);
+  width: 70%;
+  border-radius: 20px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  transition: transform 0.3s ease-in-out;
+}
+.education:hover {
+  transform: scale(1.03); 
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); 
+}
+
+.education-item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 0px;
+ /* Adjust horizontal spacing */
+}
+
+.school-logo {
+  width: 60px; /* Adjust logo size */
+  height: 60px;
+  border-radius: 50%;
+  margin-left: 15px; /* Make the logo circular if needed */
+}
+
+.education-details {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Styles for headings and paragraphs */
+.school-name {
+  font-weight: bold;
+}
+
+/* Add styles for duration, grade, and comments as needed */
+.comment{
+  font-size: 1.2rem;
+}
+
+.duration{
+  margin: 0px;
+  font-size: 1.1rem;
+}
+
+.school-name{
+  margin-bottom: 0px;
+  margin-top: 10px;
+}
+
+.eduCont{
+  margin: 20px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.badge{
+  margin: 5px;
+}
+.showbtn{
+  width: 40%;
+  margin: 5%;
+}
+
+.projectContainer{
+  margin-top: 25px;
+  transition: transform 0.3s ease-in-out;
+}
+.projectContainer:hover {
+  transform: scale(1.03); 
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); 
+}
+.img-fluid{
+  transition: transform 0.3s ease-in-out;
+}
+.img-fluid:hover {
+  transform: scale(1.03); 
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); 
+}
+
+.InnerProj{
+  /* margin: 10px; */
+  border-radius: 15px;
+}
+.contactForm{
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.inputCss{
+  min-width: 80%;
+}
+.expPara{
+  margin-bottom: 0px;
+  font-size: 1.2rem;
+}
+.nav-item{
+  font-size: 1.3rem;
+}
+
+.educationCont{
+  margin-top: 2%;
+  margin-bottom: 3%;
+}
+/* styles.css or your CSS file */
+.sticky-navbar {
+  font-size: 1.3rem;
+  position: -webkit-sticky; /* For Safari */
+  position: sticky;
+  top: 0;
+  z-index: 1; /* Adjust the z-index as needed */
+  background-color: #333; /* Example background color */
+  /* Other styles you want for the navbar */
+}
+.navBarMargin{
+  margin-left: 13%;
+}
+.emailMargin{
+  margin-right: 6%;
+}
+.bgCol{
+  /* background: linear-gradient(135deg, #008080, #00ffff); */
+  /* background: linear-gradient(135deg, #ff8c00, #e74c3c); */
+  /* background: linear-gradient(135deg, #2ecc71, #ffd700); */
+  /* background: linear-gradient(135deg, #3498db, #87ceeb); */
+  /* background: linear-gradient(135deg, #8a2be2, #ff69b4); */
+  /* background: linear-gradient(135deg, rgba(138, 43, 226, 0.7), rgba(255, 105, 180, 0.05)); */
+background-color: rgba(138, 43, 226, 0.1);
+
+}
+.cardHeight{
+  height: 500px;
+}
+.imgSize{
+  /* height: 33%; */
+}
+.inImgHeight{
+  width: 100%;
+  height: 200px;
+}
+.hoverEffect a:hover{
+  scale: 1.15;
+  transition: scale 300ms ease-in-out;
+  /* transform: scale(1.05);  */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  opacity: 0.5;
+}
+.card-text{
+  font-size: 1.2rem;
+}
