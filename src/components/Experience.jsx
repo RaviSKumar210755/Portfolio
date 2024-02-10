@@ -8,42 +8,37 @@ const Experience = () => {
       <p className="expPara">different companies and projects.</p>
       <div className="experience">
         <div className="card text-center web bgCol">
-          <h4 className="card-header">Web Developer Intern</h4>
+          <h4 className="card-header">Frontend Web Developer Intern</h4>
           <div className="card-body">
-            <h5 className="card-title">@ SkyBug</h5>
+            <h5 className="card-title">@ Infotrixs/h5>
             <p className="card-text">
-              Developed responsive web pages using ReactJs for client projects.
+             Worked on Internship Portal With Senior Developers fixing bugs and added extra functionality.
             </p>
             <p className="card-text">
-              Contributed to a team project, implementing new features using
-              React.js and improving user experience.
+             Optimized user experiences through responsive design, resulting in a 15% boost in mobile satisfaction.
             </p>
             <p className="card-text">
-              Identified and fixed performance bottlenecks, optimizing website
-              load times by 20%.
+              Collaborated with the QA team to achieve a 95% bug-free release and led to 10% retention boost.
             </p>
             <h5>
-              Tech Stack : ReactJs, NodeJs, ExpressJs, MongoDB, Material Ui
+              Tech Stack : ReactJs, Redux, Material Ui
             </h5>
           </div>
         </div>
         <div className="card text-center web bgCol">
-          <h4 className="card-header">Frontend Developer Intern</h4>
+          <h4 className="card-header">Web Developer</h4>
           <div className="card-body">
-            <h5 className="card-title">@ Infotrixs</h5>
+            <h5 className="card-title">@ NVCTI (IIT Dhanbad)</h5>
             <p className="card-text">
-              Created interactive UI components using React.js, contributing to
-              a dashboard application.
+             Worked on Home page and Event page for IIT Dhanbad cultural fest Srijan 23 drawing 2000+ users.
             </p>
             <p className="card-text">
-              Gained proficiency in responsive design principles, improving
-              mobile responsiveness of websites.
+              Created Admin dashboard for Managing Organization’s various events seamless.
             </p>
             <p className="card-text">
-              Expanded proficiency in state management using Redux Toolkit,
-              enhancing data flow in large-scale applications.
+              Handled backend part of the event page for IIT Dhanbad TechFest Concetto 23.
             </p>
-            <h5>Tech Stack : ReactJs, Redux Toolkit, Bootstrap</h5>
+            <h5>Tech Stack : ReactJs, Nodejs, ExpressJs, MongoDB, Material UI</h5>
           </div>
         </div>
       </div>
