@@ -10,6 +10,22 @@ const ProjectData = [
     gitHubUrl: "https://github.com/RaviSKumar210755/Real-Estate",
   },
   {
+    imgsrc: "https://i.postimg.cc/sxstyDb7/Screenshot-387.png",
+    name: "VIChatify",
+    disc: "– Implemented Real time Group and Personal Chatting, Video call features Boosting user engagement.",
+    techStack: ["Socket.io","Reactjs", "NodeJs", "ExpressJs", "MongoDB"],
+    wevsiteUrl: "https://chat-app-lyart-sigma.vercel.app/chat",
+    gitHubUrl: "https://github.com/RaviSKumar210755/Video-Call-Chat-App-",
+  },
+  {
+    imgsrc: "https://postimg.cc/qtHJLVb0",
+    name: "EDashboard",
+    disc: "– Implemented intuitive user interface, with robust features User management, Data visualization.",
+    techStack: ["Nivo Charts","Reactjs", "NodeJs", "ExpressJs", "MongoDB","Redux","MaterialUI"],
+    wevsiteUrl: "https://dashboard-x1h2.onrender.com/",
+    gitHubUrl: "https://github.com/RaviSKumar210755/EDashboard",
+  },
+  {
     imgsrc: "Covid.png",
     name: "Covid 19",
     disc: "It displays Real time Covid 19 stats using graph also search functionality is Provided.",
